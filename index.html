@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>music</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="box">
+    <!--头部-->
+    <header>
+        <div class="container">
+            <h3 class="left">你的专属音乐播放器 </h3>
+            <p class="right">  By - Mr.WXH</p>
+        </div>
+    </header>
+
+    <!--主体内容-->
+    <section>
+        <div class="container">
+            <input type="text" class="search" placeholder="搜索喜欢的歌曲">
+            <ul class="searchList">
+
+            </ul>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <div class="container">
+        <!--控制按钮-->
+        <div class="btns left">
+            <div class="prev left"></div>
+            <div class="start left"></div>
+            <div class="next left"></div>
+        </div>
+
+        <!--进度条-->
+        <div class="left bars">
+            <div class="left logo">
+                <img src="" alt="">
+            </div>
+            <div class="left ctrl-bars-box">
+                <p>歌曲名 -- 歌手名</p>
+                <div class="ctrl-bar">
+                    <div class="nowTime"></div>
+                    <div class="ctrl-btn">
+                        <div class="small"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="left playTime">
+                <span class="playTimeNow">00:00</span>
+                /
+                <span class="playTimeTotal">00:00</span>
+            </div>
+        </div>
+
+        <div class="left modes">
+            <div class="left voice"></div>
+            <div class="left mode"></div>
+            <div class="left list"></div>
+        </div>
+    </div>
+
+</footer>
+
+<div class="play-list">
+    <h3>播放列表</h3>
+    <ul></ul>
+</div>
+
+<div class="mode-info"></div>
+
+<audio></audio>
+
+<!--背景-->
+    <div id="container"></div>
+<!--<iframe id="iframe" src="http://demo.sc.chinaz.com//Files/DownLoad/webjs1/201903/jiaoben6630" frameborder="0" width="100%" height="933px"> </iframe>-->
+<!--<iframe id="iframe" src="http://demo.sc.chinaz.com//Files/DownLoad/webjs1/201707/jiaoben5204" frameborder="0" width="100%" height="922px"> </iframe>-->
+<!--<iframe id="iframe" src="http://demo.sc.chinaz.com//Files/DownLoad/webjs1/201707/jiaoben5204" frameborder="0" width="100%" height="922px"> </iframe>-->
+<!--<iframe id="iframe" src="https://hhh16.github.io/IMG/index.html" frameborder="0" width="100%" height="920px"> </iframe>-->
+
+</body>
+<script src='lib/three.min.js'></script>
+<script src="https://cdn.bootcss.com/jquery/3.4.0/jquery.min.js"></script>
+<script src="lib/index.js"></script>
+<script src="js/index.js"></script>
+
+</html>
